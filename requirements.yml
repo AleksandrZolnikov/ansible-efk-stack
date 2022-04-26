@@ -1,0 +1,13 @@
+---
+- src: git@github.com:AleksandrZolnikov/ansible-elasticsearch-role.git
+  scm: git
+  version: "2.2.0"
+  name: elastic-role
+- src: git@github.com:AleksandrZolnikov/kibana-role.git
+  scm: git
+  version: "2.2.0"
+  name: kibana-role
+- src: git@github.com:AleksandrZolnikov/filebeat-role.git
+  scm: git
+  version: "2.2.0"
+  name: filebeat-role
